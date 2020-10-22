@@ -27,7 +27,7 @@ int main() {
             cin>>regno>>Num_2>>age;
             parkingLot.park(regno,age);
         }
-        else if(command=="Leave"){
+        else if(Task=="Leave"){
             int slotNo;
             cin>>slotNo;
             parkingLot.leave(slotNo);
