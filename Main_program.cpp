@@ -27,7 +27,11 @@ int main() {
             cin>>regno>>Num_2>>age;
             parkingLot.park(regno,age);
         }
-        
+        else if(command=="Leave"){
+            int slotNo;
+            cin>>slotNo;
+            parkingLot.leave(slotNo);
+        }
         else if(Task=="Slot_numbers_for_driver_of_age"){
             int age;
             cin>>age;
